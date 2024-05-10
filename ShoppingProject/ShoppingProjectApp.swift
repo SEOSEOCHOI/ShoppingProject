@@ -11,7 +11,7 @@ import SwiftUI
 struct ShoppingProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            SearchView()
+            SearchView(searchText: "")
         }
     }
 }
